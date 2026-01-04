@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Drama JPN-EN Trainer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Noto+Serif+JP:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="ambient"></div>
+    <header class="hero">
+      <p class="eyebrow">ja-to-en</p>
+      <h1>Start with Japanese, reveal the English when ready.</h1>
+    </header>
+
+    <main class="panel">
+      <section class="controls">
+        <div class="control">
+          <label for="dramaSelect">Drama</label>
+          <select id="dramaSelect" aria-label="Drama"></select>
+        </div>
+        <div class="control">
+          <label for="seasonSelect">Season</label>
+          <select id="seasonSelect" aria-label="Season"></select>
+        </div>
+        <div class="control">
+          <label for="episodeSelect">Episode</label>
+          <select id="episodeSelect" aria-label="Episode"></select>
+        </div>
+        <div class="control info">
+          <span class="meta" id="episodeTitle">Select an episode</span>
+          <span class="meta" id="episodeCount">0 lines</span>
+        </div>
+      </section>
+
+      <section>
+        <div id="issues" class="issues"></div>
+      </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
