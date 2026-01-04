@@ -1,0 +1,20 @@
+drama: big-bang-theory
+season: 1
+episode: 1
+title: Pilot
+items:
+  - id: 1
+    jp: "レナードとシェルドンは同じアパートに住んでいる。"
+    en: "Leonard and Sheldon live in the same apartment."
+  - id: 2
+    jp: "ペニーが向かいの部屋に引っ越してくる。"
+    en: "Penny moves into the apartment across the hall."
+  - id: 3
+    jp: "レナードはペニーに恋をする。"
+    en: "Leonard falls for Penny."
+  - id: 4
+    jp: "シェルドンは厳密なルールが好きだ。"
+    en: "Sheldon likes strict rules."
+  - id: 5
+    jp: "二人は新しい隣人に自己紹介する。"
+    en: "They introduce themselves to their new neighbor."

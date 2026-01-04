@@ -1,0 +1,12 @@
+dramas:
+  - id: big-bang-theory
+    name: The Big Bang Theory
+    seasons:
+      - season: 1
+        episodes:
+          - episode: 1
+            title: Pilot
+            file: data/episodes/big-bang-theory/s01e01.yaml
+          - episode: 2
+            title: The Big Bran Hypothesis
+            file: data/episodes/big-bang-theory/s01e02.yaml

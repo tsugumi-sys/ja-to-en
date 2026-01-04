@@ -1,0 +1,20 @@
+drama: big-bang-theory
+season: 1
+episode: 2
+title: The Big Bran Hypothesis
+items:
+  - id: 1
+    jp: "レナードはペニーにデートを申し込もうとする。"
+    en: "Leonard tries to ask Penny out."
+  - id: 2
+    jp: "シェルドンは人と分け合うのが苦手だ。"
+    en: "Sheldon has trouble sharing things."
+  - id: 3
+    jp: "二人は買い物の順番を巡って議論する。"
+    en: "They argue about who should go shopping."
+  - id: 4
+    jp: "ラジとハワードが理系の冗談を言う。"
+    en: "Raj and Howard make nerdy jokes."
+  - id: 5
+    jp: "ペニーは二人のぎこちなさに気づく。"
+    en: "Penny notices how awkward they are."
