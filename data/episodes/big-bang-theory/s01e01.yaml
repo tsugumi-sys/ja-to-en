@@ -33,3 +33,6 @@ items:
   - id: 10
     jp: "シェルドン: レナード、僕は専門家じゃないけど、ランチの誘いの文脈では、排便の話題は避けたほうがいいと思う。"
     en: "Sheldon: Leonard, I'm not expert here but I believe in the context of a luncheon invitation, you might want to skip the reference to bowel movements."
+  - id: 11
+    jp: "割り算の商"
+    en: "quotient"
