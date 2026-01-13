@@ -10,3 +10,11 @@ dramas:
           - episode: 2
             title: The Big Bran Hypothesis
             file: data/episodes/big-bang-theory/s01e02.yaml
+  - id: mylife
+    name: My Life
+    seasons:
+      - season: 1
+        episodes:
+          - episode: 1
+            title: My Life
+            file: data/episodes/mylife/s01e01.yaml
