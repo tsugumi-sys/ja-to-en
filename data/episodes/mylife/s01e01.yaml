@@ -9,3 +9,6 @@ items:
   - id: 2
     jp: "その点については同意。ただもし本当にDNSフェイルオーバーがクライアントサイドのキャッシュが原因で使い物にならないなら、cloudflareのようなプロバイダはcloudflare LBのようなものはリリースしてないだろう。サービスとしての機能を果たさないからね。僕は本当にその問題が重大になり得るのかPoCして検証すべきだと思う。"
     en: "I agree with that point. However, if DNS failover were truly useless because of client-side caching, providers like Cloudflare wouldn’t even offer solutions such as Cloudflare Load Balancing — it simply wouldn’t make sense. Since they do provide it, I think it’s worth running a PoC and validating how it actually behaves in practice."
+  - id: 3
+    jp: "負けたと思ったが、なんとか巻き返したな"
+    en: "It looked like I had lost once, but I managed to make a comeback."
