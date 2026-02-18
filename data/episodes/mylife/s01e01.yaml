@@ -7,8 +7,17 @@ items:
     jp: "現時点で実用レベルのリアルタイム・バイリンガルモードを提供できているのは、日本ではServiceAだけかもしれない。これは顧客基盤を大きく広げ、競合からユーザーを獲得する絶好の機会だ。"
     en: "ServiceA may be the only product in Japan that delivers a truly usable real-time bilingual mode today. That creates a prime opportunity to significantly expand our customer base and win users away from competing solutions."
   - id: 2
+    jp: "私の経験では、Helixはかなり完成度が高い。足りない部分があっても、自分がその制限に合わせて使っている。"
+    en: "Helix is fairly complete in my experience, where it's not I usually adapt myself to that limitation."
+  - id: 3
+    jp: "誰も触れないけど明らかに大きな問題"
+    en: "elephant in the room"
+  - id: 4
+    jp: "でも、みんながあまり触れていない大きな問題は「人間＋AIによるvibecoding（雰囲気コーディング）の統合」だと思う。"
+    en: "I think the elephant in the room is the integration of Human assisted vibecoding."
+  - id: 5
     jp: "その点については同意。ただもし本当にDNSフェイルオーバーがクライアントサイドのキャッシュが原因で使い物にならないなら、cloudflareのようなプロバイダはcloudflare LBのようなものはリリースしてないだろう。サービスとしての機能を果たさないからね。僕は本当にその問題が重大になり得るのかPoCして検証すべきだと思う。"
     en: "I agree with that point. However, if DNS failover were truly useless because of client-side caching, providers like Cloudflare wouldn’t even offer solutions such as Cloudflare Load Balancing — it simply wouldn’t make sense. Since they do provide it, I think it’s worth running a PoC and validating how it actually behaves in practice."
-  - id: 3
+  - id: 6
     jp: "負けたと思ったが、なんとか巻き返したな"
     en: "It looked like I had lost once, but I managed to make a comeback."
