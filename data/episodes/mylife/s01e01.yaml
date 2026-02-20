@@ -21,3 +21,6 @@ items:
   - id: 6
     jp: "負けたと思ったが、なんとか巻き返したな"
     en: "It looked like I had lost once, but I managed to make a comeback."
+  - id: 7
+    jp: "トレイウィンドウの外をクリックすると、フォーカスが外れて他のアプリの裏に回ってしまう。"
+    en: "When I click outside the tray window, it loses focus and slips behind other apps."
