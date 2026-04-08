@@ -24,3 +24,9 @@ items:
   - id: 7
     jp: "トレイウィンドウの外をクリックすると、フォーカスが外れて他のアプリの裏に回ってしまう。"
     en: "When I click outside the tray window, it loses focus and slips behind other apps."
+  - id: 8
+    jp: "Stackは関数呼び出しとローカル変数の格納に利用される。メモリ上のスタックは関数呼び出し後に自動的に解放される。"
+    en: "The stack is used for function calls and local variables. Memory on the stack is automatically allocated and freed when a function is called or returns."
+  - id: 9
+    jp: "Heapは動的に割り当てられるデータの格納に使われる。メモリ上のヒープはコード上で管理、またはガベージコレクタで解放される。"
+    en: "The heap is used for dynamically allocated memory. Memory on the heap is managed or handled by a garbage collector."
