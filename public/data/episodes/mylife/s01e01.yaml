@@ -48,3 +48,6 @@ items:
   - id: 15
     jp: "Model A は修正方法は大体あっているんだけど、報告されたバグの修正には必要ない変更も含めてしまっている。"
     en: "Although Model A's fix is generally correct, it introduces an unrelated change that is not required to address the reported bugs."
+  - id: 16
+    jp: "このシリアライズの方法は既存のmodel_dumpと異なってしまうため、プロンプト要件の既存APIとシリアライズの方法を変えないという要件を満たさない"
+    en: "This serialization approach differs from the existing `model_dump()` behavior, which does not fully satisfy the prompt's requirements to preserve the existing API and serialization semantics."
