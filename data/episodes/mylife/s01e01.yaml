@@ -30,3 +30,21 @@ items:
   - id: 9
     jp: "Heapは動的に割り当てられるデータの格納に使われる。メモリ上のヒープはコード上で管理、またはガベージコレクタで解放される。"
     en: "The heap is used for dynamically allocated memory. Memory on the heap is managed or handled by a garbage collector."
+  - id: 10
+    jp: "この変更は失敗時のデバッグやメンテナビリティをより困難にしてしまう"
+    en: "This change makes failures harder to debug and maintain."
+  - id: 11
+    jp: "この変更は、pipeline全体を一つのtry-exceptに押し込んでいる。これは失敗時のデバッグやメンテナビリティをより困難にする。"
+    en: "This change wraps the entire pipeline into a single try-except block, making failures harder to debug and maintain."
+  - id: 12
+    jp: "モデルAは、importを実行したり、モデルをロードしたりして実際のランタイムのバリデーションを通してリファクタリングの検証を行っていない"
+    en: "Model A does not verify the refactoring through the actual runtime validation such as importing or loading models."
+  - id: 13
+    jp: "モデルAは根本原因を正しく特定して直した."
+    en: "Model A correctly identifies and fixes the root cause."
+  - id: 14
+    jp: "Model C は継承などのエッジケースも含めて幅広くテストしている"
+    en: "Mode C verifies the changes with comprehensive testing, including inheritance edge cases."
+  - id: 15
+    jp: "Model A は修正方法は大体あっているんだけど、報告されたバグの修正には必要ない変更も含めてしまっている。"
+    en: "Although Model A's fix is generally correct, it introduces an unrelated change that is not required to address the reported bugs."
