@@ -9,6 +9,14 @@ const issuesEl = document.getElementById("issues");
 
 let catalog = null;
 
+const fetchText = async (url) => {
+  const cacheBustUrl = new URL(url, window.location.href);
+  cacheBustUrl.searchParams.set("v", String(Date.now()));
+  const response = await fetch(cacheBustUrl, { cache: "no-store" });
+  if (!response.ok) throw new Error(`Failed to load ${url}`);
+  return response.text();
+};
+
 const clearChildren = (node) => {
   while (node.firstChild) {
     node.removeChild(node.firstChild);
@@ -124,9 +132,7 @@ const loadEpisode = async () => {
   }
 
   try {
-    const response = await fetch(episode.file);
-    if (!response.ok) throw new Error("Failed to load episode");
-    const yamlText = await response.text();
+    const yamlText = await fetchText(episode.file);
     const episodeData = jsyaml.load(yamlText);
 
     updateEpisodeMeta(episodeData);
@@ -139,9 +145,7 @@ const loadEpisode = async () => {
 
 const bootstrap = async () => {
   try {
-    const response = await fetch(catalogUrl);
-    if (!response.ok) throw new Error("Failed to load catalog");
-    const yamlText = await response.text();
+    const yamlText = await fetchText(catalogUrl);
     catalog = jsyaml.load(yamlText);
 
     if (!catalog?.dramas?.length) {
